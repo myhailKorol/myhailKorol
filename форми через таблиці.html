@@ -7,19 +7,20 @@
 </head>
 
 <body>
-<h1>HTML Form Input Validation Using Java Script</h1>
+<h1>HTML Form Input Validation Using Java Script</h1> 
+<form>
 <table width="45%" cellspacing="0" cellpadding="4">
 <tr>
 <td>Name<span class="required">*</span></td>
-<td><input type="text"name="Имя"/></td>
+<td><input type="text"name="Name"/></td>
 </tr>
 <tr>
 <td>Adress</td>
-<td><input type="text"name="Адрес"></td>
+<td><input type="text"name="Adress"></td>
 </tr>
 <tr>
 <td>Zip Code<span class="required">*</span></td>
-<td><input type="text"name="зип код"/></td>
+<td><input type="text"name="Zip Code"/></td>
 </tr>
 <tr>
 <td>Country<span class="required">*</span></td>
@@ -27,28 +28,36 @@
 <option value="ukraine">Ukraine</option>
 <option value="usa">USA</option>
 <option value="kanada">Canada</option>
-<option value="щебзавод">Щебзавод</option>
-<option value="лайник">лайник</option>
+<option value="china">China</option>
+<option value="hungary">Hungary</option>
 </select></td>
 </tr>
 <tr>
-<td>Gender<span class="required">*</span></td> 
-<td><input type="radio"name="male"/>Male
-<input type="radio"name="male"/>Female</td>
+<td>Gender<span class="required">*</span></td>
+
+<td>
+<label><input type = "radio" name = "choice2">Mail </label>
+
+<label><input type = "radio" name = "choice2" >Femail </label>
+</td>
 </tr>
 <tr>
 <td>Preferences<span class="required">*</span></td> 
-<td><input type="checkbox"name="red"/>Red
-  <input type="checkbox"name="green"/>Green
- <input type="checkbox"name="blue"/>Blue</td>
+<td><input type="checkbox"id="red">
+<label for="red">Red</lable>
+  <input type="checkbox"id="green"/>
+<label for="green">Green</lable>
+ <input type="checkbox"id="blue"/>
+<label for="blue">Blue</lable>
+</td>
 </tr>
 <tr>
 <td>Phone<span class="required">*</span></td> 
-<td><input type="text"name="Телефон"/></td>
+<td><input type="text"name="Phone"/></td>
 </tr>
 <tr>
 <td>Email<span class="required">*</span></td> 
-<td><input type="text"name="Емейл"/></td>
+<td><input type="text"name="Email"/></td>
 </tr>
 <tr>
 <td>Password(6-8characters)<span class="required">*</span></td> 
@@ -64,5 +73,6 @@
 </tr>
 
 </table>
+</form>
 </body>
 </html>
